@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<macros>
+	<macro name="Paperdoll" key="112" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="10" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Options" key="111" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="9" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Journal" key="106" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="12" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Open Status Bar" key="115" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="11" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Backpack" key="105" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="16" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Radar" key="114" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="17" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Bow" key="98" mousebutton="0" alt="False" ctrl="True" shift="False">
+		<actions>
+			<action code="18" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Salute" key="115" mousebutton="0" alt="False" ctrl="True" shift="False">
+		<actions>
+			<action code="19" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Open Wiki" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="[wiki" />
+		</actions>
+	</macro>
+	<macro name="Outlands Help Page" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="[help" />
+		</actions>
+	</macro>
+	<macro name="Guards" key="1073741882" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="Guards!" />
+		</actions>
+	</macro>
+	<macro name="Bank" key="1073741883" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="bank" />
+		</actions>
+	</macro>
+	<macro name="Lockdown Item" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="I wish to lock this down" />
+		</actions>
+	</macro>
+	<macro name="Secure Item" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="I wish to secure this" />
+		</actions>
+	</macro>
+	<macro name="Release item" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="I wish to release this" />
+		</actions>
+	</macro>
+	<macro name="Heal Potion" key="49" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="68" subcode="221" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Cure Potion" key="50" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="68" subcode="216" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Strength Potion" key="51" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="68" subcode="218" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Agility Potion" key="52" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="68" subcode="217" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Magic Resist Potion" key="53" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="68" subcode="215" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Circle Trans" key="54" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="29" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Rope" key="102" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="[rope" />
+		</actions>
+	</macro>
+	<macro name="Last Target" key="0" mousebutton="7" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="22" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Target Self" key="0" mousebutton="8" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="23" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Pouch" key="98" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="[pouch" />
+		</actions>
+	</macro>
+</macros>
