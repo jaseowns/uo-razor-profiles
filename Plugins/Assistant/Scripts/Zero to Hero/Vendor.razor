@@ -1,0 +1,14 @@
+@setvar! timeout 1000
+@setvar! vendorID 3025714
+while not dead
+  if find vendorID ground -1 -1 20
+    overhead "● ▼▼ HERE ▼▼ ●" 88 vendorID
+    if findtype 3701 vendorID as pack
+      dclick pack
+      wait timeout
+      
+    endif
+    stop
+  endif
+  wait 500
+endwhile

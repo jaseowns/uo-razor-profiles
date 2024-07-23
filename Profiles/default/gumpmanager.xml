@@ -1,2 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<gumps />
+<gumps>
+	<gumps label="Codex Bar" gumpId="2016719803" x="268" y="210" force="False" />
+</gumps>

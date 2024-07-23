@@ -1,18 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <gumps>
-	<anchored_group_gump matrix_w="4" matrix_h="2">
-		<gump type="7" x="456" y="884" serial="1014" name="Release item" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
-		<gump type="7" x="544" y="884" serial="1012" name="Lockdown Item" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="0" />
-		<gump type="7" x="632" y="884" serial="1010" name="Guards" graphicId="0" hideLabel="False" scale="1" matrix_x="2" matrix_y="0" />
-		<gump type="7" x="720" y="884" serial="1008" name="Open Wiki" graphicId="0" hideLabel="False" scale="1" matrix_x="3" matrix_y="0" />
-		<gump type="7" x="544" y="928" serial="1013" name="Secure Item" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="1" />
-		<gump type="7" x="632" y="928" serial="1011" name="Bank" graphicId="0" hideLabel="False" scale="1" matrix_x="2" matrix_y="1" />
-		<gump type="7" x="720" y="928" serial="1009" name="Outlands Help Page" graphicId="0" hideLabel="False" scale="1" matrix_x="3" matrix_y="1" />
+	<anchored_group_gump matrix_w="2" matrix_h="3">
+		<gump type="7" x="1683" y="413" serial="1046" name="Chiv Hotbar" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
+		<gump type="7" x="1771" y="413" serial="1055" name="Sacred Journey" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="0" />
+		<gump type="7" x="1683" y="457" serial="1015" name="Grab Item" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="1" />
+		<gump type="7" x="1771" y="457" serial="1053" name="Noble Sacrifice" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="1" />
+		<gump type="7" x="1683" y="501" serial="1008" name="Codex Hotbar" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="2" />
+		<gump type="7" x="1771" y="501" serial="1057" name="Noble Sac Self" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="2" />
 	</anchored_group_gump>
-	<gump type="9" x="100" y="100" serial="10553" isminimized="False" />
-	<gump type="27" x="860" y="478" serial="0" />
-	<gump type="1" x="1633" y="412" serial="0" graphic="30080" direction="1" />
-	<gump type="3" x="816" y="883" serial="0" rows="2" columns="8" rectsize="40">
+	<anchored_group_gump matrix_w="5" matrix_h="1">
+		<gump type="7" x="1396" y="1004" serial="1035" name="Heal Potion" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
+		<gump type="7" x="1484" y="1004" serial="1036" name="Cure Potion" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="0" />
+		<gump type="7" x="1572" y="1004" serial="1037" name="Agility Potion" graphicId="0" hideLabel="False" scale="1" matrix_x="2" matrix_y="0" />
+		<gump type="7" x="1660" y="1004" serial="1038" name="Magic Resist Potion" graphicId="0" hideLabel="False" scale="1" matrix_x="3" matrix_y="0" />
+		<gump type="7" x="1748" y="1004" serial="1039" name="Strength Potion" graphicId="0" hideLabel="False" scale="1" matrix_x="4" matrix_y="0" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="1" matrix_h="3">
+		<gump type="7" x="1575" y="414" serial="1025" name="Bandage Script" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
+		<gump type="7" x="1575" y="458" serial="1026" name="Sheer Sheep" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="1" />
+		<gump type="7" x="1575" y="502" serial="1027" name="Quick Escape" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="2" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="2" matrix_h="2">
+		<gump type="7" x="37" y="584" serial="1030" name="Toggle Criminal Healing" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
+		<gump type="7" x="125" y="584" serial="1032" name="Toggle Hamstring" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="0" />
+		<gump type="7" x="37" y="628" serial="1031" name="Toggle Criminal Looting" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="1" />
+		<gump type="7" x="125" y="628" serial="1033" name="Toggle Disarm" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="1" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="6" matrix_h="1">
+		<gump type="7" x="815" y="807" serial="1019" name="Rope" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
+		<gump type="7" x="903" y="807" serial="1021" name="Last Object" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="0" />
+		<gump type="7" x="991" y="807" serial="1016" name="Bandage Self" graphicId="0" hideLabel="False" scale="1" matrix_x="2" matrix_y="0" />
+		<gump type="7" x="1079" y="807" serial="1013" name="Attack Nearest" graphicId="0" hideLabel="False" scale="1" matrix_x="3" matrix_y="0" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="3" matrix_h="2">
+		<gump type="7" x="1745" y="870" serial="1042" name="Secure Item" graphicId="0" hideLabel="False" scale="1" matrix_x="2" matrix_y="0" />
+		<gump type="7" x="1745" y="914" serial="1043" name="Release item" graphicId="0" hideLabel="False" scale="1" matrix_x="2" matrix_y="1" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="3" matrix_h="1">
+		<gump type="22" x="814" y="995" serial="0" matrix_x="0" matrix_y="0" />
+		<gump type="23" x="944" y="995" serial="0" matrix_x="1" matrix_y="0" />
+		<gump type="26" x="1074" y="995" serial="0" matrix_x="2" matrix_y="0" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="2" matrix_h="1">
+		<gump type="7" x="1575" y="349" serial="1017" name="Skinning" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="0" />
+		<gump type="7" x="1663" y="349" serial="1006" name="Close Health Bars" graphicId="0" hideLabel="False" scale="1" matrix_x="1" matrix_y="0" />
+	</anchored_group_gump>
+	<anchored_group_gump matrix_w="2" matrix_h="2">
+		<gump type="16" x="1589" y="872" serial="0" id="21" matrix_x="0" matrix_y="0" />
+		<gump type="16" x="1589" y="872" serial="0" id="21" matrix_x="1" matrix_y="0" />
+		<gump type="16" x="1589" y="916" serial="0" id="19" matrix_x="0" matrix_y="1" />
+		<gump type="16" x="1589" y="916" serial="0" id="19" matrix_x="1" matrix_y="1" />
+	</anchored_group_gump>
+	<gump type="9" x="1391" y="530" serial="1538030" isminimized="False" />
+	<gump type="2" x="3" y="78" serial="1184160085" graphic="60" isminimized="True" />
+	<gump type="27" x="886" y="560" serial="0" />
+	<gump type="10" x="18" y="47" serial="0" isminimized="True" height="648" />
+	<gump type="3" x="814" y="863" serial="0" rows="3" columns="8" rectsize="40">
 		<controls>
 			<control graphic="5370" hue="2799" />
 			<control graphic="3852" hue="0" />
@@ -30,10 +73,21 @@
 			<control graphic="3963" hue="0" />
 			<control graphic="3980" hue="0" />
 			<control graphic="3962" hue="0" />
+			<control graphic="3922" hue="0" />
+			<control graphic="3617" hue="0" />
+			<control graphic="2429" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="4225" hue="0" />
+			<control graphic="8786" hue="0" />
+			<control graphic="3999" hue="0" />
 		</controls>
 	</gump>
+	<gump type="1" x="669" y="808" serial="0" graphic="30080" direction="1" />
 	<gump type="5" x="598" y="4" serial="0" />
-	<gump type="24" x="8" y="31" serial="0" />
-	<gump type="21" x="30" y="539" serial="0" />
-	<gump type="18" x="1637" y="12" serial="0" />
+	<gump type="24" x="534" y="319" serial="0" />
+	<gump type="4" x="665" y="875" serial="1538030" />
+	<gump type="21" x="1675" y="617" serial="0" />
+	<gump type="18" x="1573" y="9" serial="0" />
+	<gump type="6" x="31" y="698" serial="0" />
 </gumps>

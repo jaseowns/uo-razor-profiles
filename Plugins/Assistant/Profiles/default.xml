@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <profile>
-	<property name="ShowMobNames" type="System.Boolean">True</property>
-	<property name="ShowCorpseNames" type="System.Boolean">False</property>
 	<property name="DisplaySkillChanges" type="System.Boolean">False</property>
 	<property name="TitleBarText" type="System.String">UO - {char}</property>
 	<property name="TitleBarDisplay" type="System.Boolean">True</property>
-	<property name="AutoSearch" type="System.Boolean">False</property>
+	<property name="AutoSearch" type="System.Boolean">True</property>
 	<property name="NoSearchPouches" type="System.Boolean">True</property>
 	<property name="CounterWarnAmount" type="System.Int32">5</property>
 	<property name="CounterWarn" type="System.Boolean">True</property>
@@ -13,83 +11,57 @@
 	<property name="ObjectDelayEnabled" type="System.Boolean">True</property>
 	<property name="AlwaysOnTop" type="System.Boolean">False</property>
 	<property name="SortCounters" type="System.Boolean">True</property>
-	<property name="QueueActions" type="System.Boolean">False</property>
+	<property name="QueueActions" type="System.Boolean">True</property>
 	<property name="QueueTargets" type="System.Boolean">False</property>
-	<property name="WindowX" type="System.Int32">400</property>
-	<property name="WindowY" type="System.Int32">400</property>
+	<property name="WindowX" type="System.Int32">323</property>
+	<property name="WindowY" type="System.Int32">268</property>
 	<property name="CountStealthSteps" type="System.Boolean">True</property>
 	<property name="SysColor" type="System.Int32">68</property>
 	<property name="WarningColor" type="System.Int32">37</property>
 	<property name="ExemptColor" type="System.Int32">1152</property>
-	<property name="SpeechHue" type="System.Int32">945</property>
-	<property name="BeneficialSpellHue" type="System.Int32">5</property>
-	<property name="HarmfulSpellHue" type="System.Int32">88</property>
-	<property name="NeutralSpellHue" type="System.Int32">945</property>
-	<property name="ForceSpeechHue" type="System.Boolean">False</property>
-	<property name="ForceSpellHue" type="System.Boolean">True</property>
-	<property name="SpellFormat" type="System.String">{power} [{spell}]</property>
-	<property name="ShowNotoHue" type="System.Boolean">False</property>
 	<property name="Opacity" type="System.Int32">100</property>
-	<property name="AutoOpenCorpses" type="System.Boolean">False</property>
-	<property name="CorpseRange" type="System.Int32">2</property>
-	<property name="BlockDismount" type="System.Boolean">True</property>
+	<property name="BlockDismount" type="System.Boolean">False</property>
 	<property name="CapFullScreen" type="System.Boolean">False</property>
+	<property name="CapPath" type="System.String">C:\Users\jaseo\Pictures\RazorScreenShots</property>
 	<property name="CapTimeStamp" type="System.Boolean">True</property>
 	<property name="ImageFormat" type="System.String">jpg</property>
 	<property name="UndressConflicts" type="System.Boolean">True</property>
-	<property name="HighlightReagents" type="System.Boolean">False</property>
 	<property name="Systray" type="System.Boolean">False</property>
-	<property name="TitlebarImages" type="System.Boolean">False</property>
-	<property name="RazorWidth" type="System.Int32">833</property>
+	<property name="RazorWidth" type="System.Int32">979</property>
 	<property name="RazorHeight" type="System.Int32">411</property>
 	<property name="SellAgentMax" type="System.Int32">99</property>
 	<property name="SkillListCol" type="System.Int32">-1</property>
 	<property name="SkillListAsc" type="System.Boolean">False</property>
 	<property name="AutoStack" type="System.Boolean">False</property>
 	<property name="ActionStatusMsg" type="System.Boolean">True</property>
-	<property name="RememberPwds" type="System.Boolean">False</property>
-	<property name="SpellUnequip" type="System.Boolean">True</property>
-	<property name="RangeCheckLT" type="System.Boolean">False</property>
+	<property name="RangeCheckLT" type="System.Boolean">True</property>
 	<property name="LTRange" type="System.Int32">12</property>
 	<property name="FilterSnoopMsg" type="System.Boolean">True</property>
-	<property name="OldStatBar" type="System.Boolean">False</property>
 	<property name="SmartLastTarget" type="System.Boolean">False</property>
 	<property name="LastTargTextFlags" type="System.Boolean">True</property>
-	<property name="LTHilight" type="System.Int32">0</property>
 	<property name="AutoFriend" type="System.Boolean">False</property>
-	<property name="AutoOpenDoors" type="System.Boolean">True</property>
 	<property name="MessageLevel" type="System.Int32">0</property>
 	<property name="ForceIP" type="System.String" />
 	<property name="ForcePort" type="System.Int32">0</property>
-	<property name="ForceSizeEnabled" type="System.Boolean">False</property>
-	<property name="ForceSizeX" type="System.Int32">1000</property>
-	<property name="ForceSizeY" type="System.Int32">800</property>
-	<property name="PotionEquip" type="System.Boolean">True</property>
 	<property name="BlockHealPoison" type="System.Boolean">False</property>
-	<property name="Negotiate" type="System.Boolean">True</property>
 	<property name="MapX" type="System.Int32">200</property>
 	<property name="MapY" type="System.Int32">200</property>
 	<property name="MapW" type="System.Int32">200</property>
 	<property name="MapH" type="System.Int32">200</property>
-	<property name="ShowHealth" type="System.Boolean">False</property>
-	<property name="HealthFmt" type="System.String">[{0}%]</property>
-	<property name="ShowPartyStats" type="System.Boolean">False</property>
+	<property name="ShowPartyStats" type="System.Boolean">True</property>
 	<property name="PartyStatFmt" type="System.String">[{0}% / {1}%]</property>
 	<property name="HotKeyStop" type="System.Boolean">False</property>
 	<property name="DiffTargetByType" type="System.Boolean">False</property>
 	<property name="StepThroughMacro" type="System.Boolean">False</property>
 	<property name="ShowTargetSelfLastClearOverhead" type="System.Boolean">True</property>
-	<property name="ShowOverheadMessages" type="System.Boolean">False</property>
-	<property name="CaptureMibs" type="System.Boolean">False</property>
+	<property name="ShowOverheadMessages" type="System.Boolean">True</property>
 	<property name="OverheadFormat" type="System.String">[{msg}]</property>
 	<property name="OverheadStyle" type="System.Int32">1</property>
-	<property name="GoldPerDisplay" type="System.Boolean">False</property>
 	<property name="LightLevel" type="System.Int32">31</property>
 	<property name="LogSkillChanges" type="System.Boolean">False</property>
-	<property name="StealthOverhead" type="System.Boolean">True</property>
+	<property name="StealthOverhead" type="System.Boolean">False</property>
 	<property name="ShowBuffDebuffOverhead" type="System.Boolean">False</property>
 	<property name="BuffDebuffFormat" type="System.String">[{action}{name} ({duration}s)]</property>
-	<property name="BlockOpenCorpsesTwice" type="System.Boolean">False</property>
 	<property name="ShowAttackTargetOverhead" type="System.Boolean">True</property>
 	<property name="RangeCheckTargetByType" type="System.Boolean">False</property>
 	<property name="RangeCheckDoubleClick" type="System.Boolean">False</property>
@@ -112,10 +84,6 @@
 	<property name="FilterDrakeGraphics" type="System.Boolean">False</property>
 	<property name="DragonGraphic" type="System.Int32">0</property>
 	<property name="DrakeGraphic" type="System.Int32">0</property>
-	<property name="ShowDamageDealt" type="System.Boolean">False</property>
-	<property name="ShowDamageDealtOverhead" type="System.Boolean">False</property>
-	<property name="ShowDamageTaken" type="System.Boolean">False</property>
-	<property name="ShowDamageTakenOverhead" type="System.Boolean">False</property>
 	<property name="ShowInRazorTitleBar" type="System.Boolean">False</property>
 	<property name="RazorTitleBarText" type="System.String">{name} on {account} ({profile} - {shard}) - Razor v{version}</property>
 	<property name="EnableUOAAPI" type="System.Boolean">True</property>
@@ -124,19 +92,18 @@
 	<property name="StealthStepsFormat" type="System.String">Steps: {step}</property>
 	<property name="ShowFriendOverhead" type="System.Boolean">False</property>
 	<property name="DisplaySkillChangesOverhead" type="System.Boolean">False</property>
-	<property name="GrabHotBag" type="System.String">0</property>
+	<property name="GrabHotBag" type="System.String">1351672866</property>
 	<property name="MacroActionDelay" type="System.Boolean">False</property>
-	<property name="AutoOpenDoorWhenHidden" type="System.Boolean">False</property>
 	<property name="DisableMacroPlayFinish" type="System.Boolean">False</property>
 	<property name="ShowBandageTimer" type="System.Boolean">True</property>
 	<property name="ShowBandageTimerFormat" type="System.String">Bandage: {count}s</property>
 	<property name="ShowBandageTimerLocation" type="System.Int32">0</property>
 	<property name="OnlyShowBandageTimerEvery" type="System.Boolean">True</property>
-	<property name="OnlyShowBandageTimerSeconds" type="System.Int32">3</property>
-	<property name="ShowBandageTimerHue" type="System.Int32">88</property>
+	<property name="OnlyShowBandageTimerSeconds" type="System.Int32">1</property>
+	<property name="ShowBandageTimerHue" type="System.Int32">53</property>
 	<property name="TargetIndicatorHue" type="System.Int32">10</property>
-	<property name="FilterSystemMessages" type="System.Boolean">True</property>
-	<property name="FilterRazorMessages" type="System.Boolean">True</property>
+	<property name="FilterSystemMessages" type="System.Boolean">False</property>
+	<property name="FilterRazorMessages" type="System.Boolean">False</property>
 	<property name="FilterDelay" type="System.Double">3.5</property>
 	<property name="FilterOverheadMessages" type="System.Boolean">False</property>
 	<property name="OnlyNextPrevBeneficial" type="System.Boolean">False</property>
@@ -170,15 +137,7 @@
 	<property name="ScriptDClickTypeRange" type="System.Boolean">False</property>
 	<property name="ScriptFindTypeRange" type="System.Boolean">False</property>
 	<property name="ScriptDisablePlayFinish" type="System.Boolean">False</property>
-	<property name="ShowWaypointOverhead" type="System.Boolean">True</property>
-	<property name="ShowWaypointDistance" type="System.Boolean">True</property>
-	<property name="ShowWaypointSeconds" type="System.Int32">10</property>
-	<property name="ClearWaypoint" type="System.Boolean">False</property>
-	<property name="HideWaypointDistance" type="System.Int32">4</property>
-	<property name="CreateWaypointOnDeath" type="System.Boolean">False</property>
 	<property name="ShowPartyFriendOverhead" type="System.Boolean">False</property>
-	<property name="OverrideSpellFormat" type="System.Boolean">True</property>
-	<property name="PotionReequip" type="System.Boolean">False</property>
 	<property name="EnableTextFilter" type="System.Boolean">True</property>
 	<property name="DisableScriptTooltips" type="System.Boolean">False</property>
 	<filters />
@@ -186,10 +145,8 @@
 		<counter name="Bandages" enabled="True" image="True" />
 		<counter name="Black Pearl" enabled="True" image="True" />
 		<counter name="Blood Moss" enabled="True" image="True" />
-		<counter name="Cure Potions" enabled="True" image="True" />
 		<counter name="Garlic" enabled="True" image="True" />
 		<counter name="Ginseng" enabled="True" image="True" />
-		<counter name="Heal Potions" enabled="True" image="True" />
 		<counter name="Mandrake Root" enabled="True" image="True" />
 		<counter name="Nightshade" enabled="True" image="True" />
 		<counter name="Spider's Silk" enabled="True" image="True" />
@@ -235,76 +192,54 @@
 		<Restock-6 hotbag="0" />
 		<Restock-7 hotbag="0" />
 		<Restock-8 hotbag="0" />
-		<Restock-9 hotbag="0" />
-		<Restock-10 hotbag="1525483696" />
+		<Restock-9 hotbag="1099785917" />
+		<Restock-10 hotbag="1106090720" />
 		<Scavenger enabled="True">
-			<bag serial="0x62B488B2" />
+			<bag serial="0x42563C8D" />
 		</Scavenger>
 		<AutoSearchExemptions />
-		<Sell enabled="False" />
+		<Sell enabled="True">
+			<hotbag>0x41529F8B</hotbag>
+		</Sell>
 		<UseOnce />
 	</agents>
 	<dresslists />
 	<hotkeys>
-		<key mod="0" key="-5" send="False">L:1060</key>
-		<key mod="0" key="-4" send="False">L:1395</key>
-		<key mod="4" key="-1" send="False">L:2052</key>
-		<key mod="2" key="-1" send="False">L:2054</key>
-		<key mod="1" key="-1" send="False">L:2083</key>
-		<key mod="4" key="-2" send="False">L:2055</key>
-		<key mod="2" key="-2" send="False">L:2057</key>
-		<key mod="1" key="-2" send="False">L:2087</key>
-		<key mod="0" key="112" send="False">L:1372</key>
-		<key mod="0" key="71" send="False">L:2035</key>
+		<key mod="0" key="49" send="False">Play Script: Zero to Hero\AutoDexxer</key>
+		<key mod="6" key="79" send="False">Play Script: Zero to Hero\Control Shift Owyn</key>
+		<key mod="0" key="73" send="False">Play Script: Zero to Hero\Item Recycle Farming</key>
+		<key mod="0" key="78" send="False">Play Script: Zero to Hero\Skin all monsters</key>
 	</hotkeys>
-	<passwords />
 	<overheadmessages>
-		<overheadmessage searchtext="You may now perform taunt" message="Taunt ready!" hue="68" />
-		<overheadmessage searchtext="Now tracking" message="!! FLEE !!" hue="1645" />
-		<overheadmessage searchtext="You reveal what" message="Someone is skulking!" hue="23" />
-		<overheadmessage searchtext="Being perfectly rested, you shove something invisible out of the way." message="Someone is skulking!" hue="23" />
-		<overheadmessage searchtext="absorb" message="Spell absorbed!" hue="88" />
-		<overheadmessage searchtext="begin applying the bandages" message="Bandaging..." hue="791" />
-		<overheadmessage searchtext="Your aspect and other bonuses return." message="Aspect Up!" hue="68" />
-		<overheadmessage searchtext="You refrain from making hamstring attempts." message="Hamstring off!" hue="33" />
-		<overheadmessage searchtext="You refrain from making disarm attempts." message="Disarm off!" hue="33" />
-		<overheadmessage searchtext="You will now attempt to disarm your opponents." message="Disarm on!" hue="68" />
-		<overheadmessage searchtext="You will now attempt to hamstring your opponents." message="Hamstring on!" hue="68" />
-		<overheadmessage searchtext="Your strike disarms your target!" message="Enemy disarmed!" hue="88" />
-		<overheadmessage searchtext="Your attack hamstrings your target!" message="Enemy hamstrung!" hue="88" />
-		<overheadmessage searchtext="Your magic resist potion has worn" message="Refresh potions!" hue="314" />
-		<overheadmessage searchtext="Your concentration is disturbed, thus ruining thy spell." message="Spell interrupted!" hue="43" />
-		<overheadmessage searchtext="The world will save" message="World save SOON!" hue="13" />
-		<overheadmessage searchtext="You may now attempt to disarm" message="Disarm charged!" hue="53" />
-		<overheadmessage searchtext="You may now attempt to hamstring" message="Hamstring charged!" hue="53" />
-		<overheadmessage searchtext="The world is saving" message="Saving..." hue="11" />
-		<overheadmessage searchtext="Your attack hinders" message="Enemy hindered!" hue="53" />
-		<overheadmessage searchtext="You may now use another magic mushroom" message="Mushroom charged!" hue="67" />
-		<overheadmessage searchtext="You may now cast a wizardry magic arrow" message="Magic Arrow charged!" hue="67" />
-		<overheadmessage searchtext="You may now cast a wizardry harm" message="Harm charged!" hue="67" />
-		<overheadmessage searchtext="You may now cast a wizardry fireball" message="Fireball charged!" hue="72" />
-		<overheadmessage searchtext="You may now cast a wizardry lightning" message="Lightning charged!" hue="72" />
-		<overheadmessage searchtext="You may now cast a wizardry chain lightning" message="Chain Lightning charged!" hue="72" />
-		<overheadmessage searchtext="Your spell siphon bonus has expired" message="Spell siphon expired!" hue="53" />
-		<overheadmessage searchtext="The requested target is out of range, last target not executed!" message="Out of range..." hue="33" />
-		<overheadmessage searchtext="Target cannot be seen." message="No line of sight..." hue="33" />
-		<overheadmessage searchtext="You enter a meditative trance." message="Meditating..." hue="398" />
-		<overheadmessage searchtext="That is too far away." message="Too far away..." hue="38" />
-		<overheadmessage searchtext="You do not have any adventurer's rope in your backpack." message="No more rope!!!" hue="33" />
-		<overheadmessage searchtext="You consume a magic mushroom and restore some mana." message="Nom nom nom nom..." hue="588" />
-		<overheadmessage searchtext="That location is blocked." message="Blocked!" hue="33" />
-		<overheadmessage searchtext="You must wait a few moments before you may use this item again." message="Rope Cooldown..." hue="33" />
-		<overheadmessage searchtext="You are not allowed to access this." message="That is locked." hue="0" />
-		<overheadmessage searchtext="You stop meditating." message="Meditation broken!" hue="33" />
-		<overheadmessage searchtext="Criminal Looting will now be prevented" message="Criminal Looting OFF" hue="68" />
-		<overheadmessage searchtext="Criminal Looting will now be allowed" message="Criminal Looting ON" hue="33" />
+		<overheadmessage searchtext="Criminal healing will now be prevented." message="Criminal Healing Prevented" hue="69" />
+		<overheadmessage searchtext="Criminal healing will now be allowed." message="Criminal Healing Allowed" hue="239" />
+		<overheadmessage searchtext="Criminal looting will now be allowed." message="Criminal Looting Allowed" hue="239" />
+		<overheadmessage searchtext="Criminal looting will now be prevented." message="Criminal Looting Prevented" hue="69" />
+		<overheadmessage searchtext="You will now attempt to hamstring your opponents." message="Hamstring On" hue="69" />
+		<overheadmessage searchtext="You refrain from making hamstring attempts." message="Hamstring Off" hue="239" />
+		<overheadmessage searchtext="An arms Lore skill of at least 80 is required to make disarm attempts." message="Need 80 Arms Lore" hue="239" />
+		<overheadmessage searchtext="The world will save in 15 seconds." message="World Save Soon" hue="53" />
+		<overheadmessage searchtext="The world is saving, please wait." message="World is Saving" hue="53" />
+		<overheadmessage searchtext="World save complete" message="World Save Complete" hue="53" />
+		<overheadmessage searchtext="Your attack hamstrings your target!" message="Target Hamstrung!" hue="68" />
+		<overheadmessage searchtext="You fail to hamstring your opponent." message="Target Dodged Hamstring" hue="239" />
+		<overheadmessage searchtext="Repaired " message="Repaired {2} {3}" hue="68" />
+		<overheadmessage searchtext="need of repairs" message="Fully Repaired" hue="68" />
+		<overheadmessage searchtext="You must have a skinning knife equipped or in your pack in order to do any carving." message="Missing Skinning Knife" hue="34" />
 	</overheadmessages>
 	<containerlabels />
 	<macrovariables />
-	<scriptvariables />
+	<scriptvariables>
+		<scriptvariable serial="0x0" name="myPreviousKillTarget" />
+	</scriptvariables>
 	<friends />
-	<textfilters />
+	<textfilters>
+		<filter text="New target set." sysmessages="True" overhead="False" speech="False" ignoreinscripts="False" />
+		<filter text="No one matching that was found on your screen." sysmessages="True" overhead="False" speech="False" ignoreinscripts="False" />
+	</textfilters>
 	<targetfilters />
-	<soundfilters />
-	<waypoints />
+	<soundfilters>
+		<soundfilter name="liche1.wav" serial="0x19D" />
+		<soundfilter name="switch01.wav" serial="0x52" />
+	</soundfilters>
 </profile>

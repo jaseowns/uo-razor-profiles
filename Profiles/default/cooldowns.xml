@@ -207,4 +207,5 @@
 		<trigger triggertype="SysMessage" duration="118" triggertext="You must wait another 1 minute 58 seconds before you may use another smoke bomb." />
 		<trigger triggertype="SysMessage" duration="119" triggertext="You must wait another 1 minute 59 seconds before you may use another smoke bomb." />
 	</cooldownentry>
+	<cooldownentry name="Bandage" defaultcooldown="0" cooldownbartype="Bandage" hue="89" pauseduringworldsaves="False" hidewheninactive="False" />
 </cooldowns>
